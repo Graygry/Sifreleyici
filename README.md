@@ -5,3 +5,4 @@ Parameters:<br />
 Sifreleyici --sifrele [file_path] -> Encrypts file with random bits.<br />
 Sifreleyici --sifrecoz [file_path] --anahtar [key_file_path] --> Decrypts encrypted file with specific key file.<br />
 Sifreleyici --yardim --> Help menu.<br />
+Sifreleyici --versiyon --> Shows version.<br />
