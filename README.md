@@ -1,5 +1,5 @@
 # Sifreleyici
-OTP (Vernam cipher) File Encryptor and Decryptor. Skips first 512 bytes of the file to not encrypt file header. Uses XOR cipher encryption algorithm to encrypt 1 MB of the file with random OTP key and generates random key file. Decryption is done with same method in reverse.
+OTP (Vernam cipher) File Encryptor and Decryptor. Skips first 512 bytes of the file to make file header intact. Uses XOR cipher encryption algorithm to encrypt 1 MB of the file with random OTP key and generates random key file. Decryption is done with same method in reverse.
 
 Parameters:<br />
 Sifreleyici --sifrele [file_path] -> Encrypts file with random bits.<br />
